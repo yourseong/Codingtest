@@ -1,4 +1,5 @@
-# 
+# 260109(금)
+# 정수 배열을 하나 받고 배열 중복값 제거 & 배열 데이터 내림차순 정렬해 반환하는 solution() 함수 구현하기
 arr = list(map(int, input().split()))
 
 def solution(arr):
