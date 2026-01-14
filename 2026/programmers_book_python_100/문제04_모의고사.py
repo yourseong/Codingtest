@@ -35,3 +35,12 @@ def solution(answers):
 # 테스트케이스
 print(solution([1,2,3,4,5]))
 print(solution([1,3,2,4,2]))
+
+
+'''
+key point.
+1. enumerate 활용해 배열의 index와 value를 동시에 반환
+2. 정답 배열 answers를 기준으로 찍기 패턴과 비교
+3. cnt = [0] * 3 배열 선언 후 반복문 통해 증가시키는 것으로 코드 확장성 높임 (기존 아이디어 : cnt += 1, cnt2 += 1 ...)
+4. .append() 활용해 최종 결과물 반환
+'''
